@@ -1,4 +1,4 @@
-# Milestone 1: Setup and Database Configuration
+# Milestone 2: Creating Models, Serializers, and Seeders
 
 ### About the Project
-he alxtravelapp project is a real-world Django application that serves as the foundation for a travel listing platform. This milestone focuses on setting up the initial project structure, configuring a robust database, and integrating tools to ensure API documentation and maintainable configurations. The aim is to equip learners with industry-standard best practices for starting and managing Django-based projects efficiently.
+This task guides learners through creating essential backend components in Django by defining database models, setting up serializers for API data representation, and implementing a management command to seed the database. By working on the duplicated alx_travel_app_0x00 project, learners will gain practical experience in structuring relational data, serializing it for API endpoints, and programmatically populating the database with sample data to simulate real-world application scenarios.

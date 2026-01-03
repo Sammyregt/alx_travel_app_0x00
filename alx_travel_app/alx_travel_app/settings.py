@@ -48,7 +48,10 @@ INSTALLED_APPS = [
     'corsheaders',
     'drf_yasg',
 
-    'listings',
+    'django_seed',
+
+    # Local apps
+    'listings.apps.ListingsConfig'
 ]
 
 MIDDLEWARE = [
@@ -103,6 +106,7 @@ DATABASES = {
     }
 }
 
+AUTH_USER_MODEL = 'listings.User'
 # REST Framework Configuration
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
